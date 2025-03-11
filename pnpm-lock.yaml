@@ -43,6 +43,41 @@ importers:
         specifier: ^5.8.2
         version: 5.8.2
 
+  apps/external:
+    dependencies:
+      '@insurasoft/db':
+        specifier: workspace:^
+        version: link:../../packages/db
+      '@insurasoft/ui':
+        specifier: workspace:^
+        version: link:../../packages/ui
+    devDependencies:
+      nuxt:
+        specifier: 3.15.4
+        version: 3.15.4(@libsql/client@0.14.0)(@parcel/watcher@2.5.1)(@types/node@22.13.10)(db0@0.3.1(@libsql/client@0.14.0)(drizzle-orm@0.40.0(@libsql/client@0.14.0)(gel@2.0.1)))(drizzle-orm@0.40.0(@libsql/client@0.14.0)(gel@2.0.1))(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.35.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
+      vue:
+        specifier: ^3.5.13
+        version: 3.5.13(typescript@5.8.2)
+      vue-router:
+        specifier: ^4.5.0
+        version: 4.5.0(vue@3.5.13(typescript@5.8.2))
+
+  apps/internal:
+    dependencies:
+      '@insurasoft/ui':
+        specifier: workspace:^
+        version: link:../../packages/ui
+    devDependencies:
+      nuxt:
+        specifier: 3.15.4
+        version: 3.15.4(@libsql/client@0.14.0)(@parcel/watcher@2.5.1)(@types/node@22.13.10)(db0@0.3.1(@libsql/client@0.14.0)(drizzle-orm@0.40.0(@libsql/client@0.14.0)(gel@2.0.1)))(drizzle-orm@0.40.0(@libsql/client@0.14.0)(gel@2.0.1))(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.35.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
+      vue:
+        specifier: ^3.5.13
+        version: 3.5.13(typescript@5.8.2)
+      vue-router:
+        specifier: ^4.5.0
+        version: 4.5.0(vue@3.5.13(typescript@5.8.2))
+
   packages/app:
     dependencies:
       '@insurasoft/ui':
@@ -95,6 +130,18 @@ importers:
       '@insurasoft/ui':
         specifier: workspace:^
         version: link:../ui
+    devDependencies:
+      nuxt:
+        specifier: 3.15.4
+        version: 3.15.4(@libsql/client@0.14.0)(@parcel/watcher@2.5.1)(@types/node@22.13.10)(db0@0.3.1(@libsql/client@0.14.0)(drizzle-orm@0.40.0(@libsql/client@0.14.0)(gel@2.0.1)))(drizzle-orm@0.40.0(@libsql/client@0.14.0)(gel@2.0.1))(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.35.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
+      vue:
+        specifier: ^3.5.13
+        version: 3.5.13(typescript@5.8.2)
+      vue-router:
+        specifier: ^4.5.0
+        version: 4.5.0(vue@3.5.13(typescript@5.8.2))
+
+  packages/fs:
     devDependencies:
       nuxt:
         specifier: 3.15.4
