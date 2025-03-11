@@ -1,0 +1,3 @@
+CREATE TABLE `customer` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL
+);

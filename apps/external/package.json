@@ -1,0 +1,22 @@
+{
+  "name": "@insurasoft/form",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev",
+    "prepare": "nuxt prepare",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.15.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "dependencies": {
+    "@insurasoft/ui": "workspace:^",
+    "@insurasoft/db": "workspace:^"
+  }
+}
