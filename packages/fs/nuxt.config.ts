@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
-  extends: ["../../"],
+  extends: ["../../", "@insurasoft/db"],
+  runtimeConfig: {
+    storage: "",
+  },
 });
