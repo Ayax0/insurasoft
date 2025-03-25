@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@insurasoft/ui": "workspace:^",
-    "@insurasoft/db": "workspace:^"
+    "@insurasoft/db": "workspace:^",
+    "@insurasoft/fs": "workspace:^"
   }
 }

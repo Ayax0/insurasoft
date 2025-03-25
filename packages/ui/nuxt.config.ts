@@ -3,7 +3,12 @@ import { fileURLToPath } from "node:url";
 export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   extends: ["../../"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "shadcn-nuxt"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode",
+    "shadcn-nuxt",
+    "@nuxt/icon",
+  ],
   shadcn: {
     prefix: "",
     componentDir: fileURLToPath(
@@ -16,7 +21,7 @@ export default defineNuxtConfig({
     ),
   },
   colorMode: {
-    preference: "system",
+    classSuffix: "",
   },
   alias: {
     "@ui": fileURLToPath(new URL("./app", import.meta.url)),
