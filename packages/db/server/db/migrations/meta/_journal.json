@@ -15,6 +15,13 @@
       "when": 1742303944524,
       "tag": "0001_bouncy_ronan",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1742890778899,
+      "tag": "0002_chemical_hercules",
+      "breakpoints": true
     }
   ]
 }

@@ -12,7 +12,7 @@ const { customerId } = useRoute().params;
     <NavigationButton
       icon="lucide:dollar-sign"
       title="Schadensmeldung"
-      :to="`/customer/${customerId}/request`"
+      :to="`/customer/${customerId}/claim`"
     />
   </div>
 </template>
