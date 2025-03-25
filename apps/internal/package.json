@@ -16,6 +16,8 @@
     "vue-router": "^4.5.0"
   },
   "dependencies": {
-    "@insurasoft/ui": "workspace:^"
+    "@insurasoft/ui": "workspace:^",
+    "@insurasoft/db": "workspace:^",
+    "@insurasoft/fs": "workspace:^"
   }
 }

@@ -24,10 +24,10 @@ function submit(body: any) {
 <template>
   <Card class="max-w-[600px] m-auto">
     <CardHeader>
-      <CardTitle>Versicherungsfall Melden</CardTitle>
+      <CardTitle>Schadensmeldung erstellen</CardTitle>
       <CardDescription>
-        Durch ausfüllen dieses Formulars kann ein neuer Versicherungsfall
-        eröffnet werden.
+        Durch ausfüllen dieses Formulars kann eine neue Schadensmeldung eröffnet
+        werden.
       </CardDescription>
     </CardHeader>
     <CardContent>
